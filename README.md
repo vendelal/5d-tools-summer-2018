@@ -23,4 +23,4 @@
 6. You're done! You'll see a new page with some red error `x`s that looks like this:
 
  
-![screenshot](http://tinypic.com/r/nqwmzc/9)
+![screenshot](http://i68.tinypic.com/nqwmzc.png)
