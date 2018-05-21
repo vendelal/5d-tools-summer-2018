@@ -1,0 +1,42 @@
+body{
+	background-color:green
+}
+
+h1{
+	font-family: courier new, georgia, sanserif;
+}
+
+
+em{
+	font-size: 1.5rem;
+	font-weight: bold;
+}
+
+li{
+	font-size: 1.75rem
+}
+
+div {
+	background-color:blue;
+	height: 200px;
+	width: 200px;
+		border-radius: 25px;
+}
+
+.div1 {
+	border-color: purple;
+	border-width: 5px;
+	border-style: solid;
+}
+
+.div2 {
+	border-color: red;
+	border-width: 5px;
+	border-style: solid;
+}
+
+.div3 {
+	border-color: goldenrod;
+	border-width: 5px;
+	border-style: solid;
+}
