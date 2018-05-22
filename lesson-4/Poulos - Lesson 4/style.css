@@ -1,0 +1,57 @@
+body {
+	color: DarkGrey;
+	background-color: Moccasin;
+	font-family: "Courier New", Courier, monospace;
+}
+
+h1 {
+	text-align: center;
+	color: Teal;
+}
+
+h2 {
+	color: #e69900;
+	font-size: 1.5rem;
+	text-align: center;
+}
+
+ul {
+	list-style-type: circle;
+}
+
+li {
+	font-size: 1rem;
+}
+
+ol {
+	list-style-type: decimal;
+	color: #404040;
+}
+
+
+div {
+	background-color: #e6be92;
+	height: 50px;
+	width: 50px;
+	display: inline-block;
+	border-radius: 10px;
+	grid-auto-rows: auto;
+}
+
+.how-to-list {
+	background-color: #99994d;
+}
+
+#what-is-css {
+	background-color: #cbad8a;
+	color: #404040;
+}
+
+em {
+	font-size: 1rem;
+	font-weight: bold;
+}
+
+p {
+	color: #404040;
+}
