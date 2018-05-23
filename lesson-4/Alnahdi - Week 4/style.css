@@ -1,0 +1,36 @@
+body {
+	background-color: navajowhite;
+}
+
+h1 {
+
+	font-family: Verdana, Helvetica, sans-serif;
+}
+
+em {
+	font-weight: bold;
+}
+
+li {
+	font-size: 2rem;
+}
+
+div {
+	background-color: dodgerblue;
+	height: 200px;
+	width: 200px;
+	border-radius: 30px;
+	border-style: solid;
+}
+
+#box1 {
+	border-color: black;
+}
+
+#box2 {
+	border-color: green;
+}
+
+#box3 {
+	border-color: orange;
+}
