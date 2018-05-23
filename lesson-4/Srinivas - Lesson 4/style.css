@@ -45,7 +45,7 @@ em {
 	font-weight: bolder;
 }
 
-.box1 {
+.box1, .box2, .box3 {
 	width: 100px;
 	height: 100px;
 	background-color: whitesmoke;
@@ -54,17 +54,9 @@ em {
 }
 
 .box2 {
-	width: 100px;
-	height: 100px;
-	background-color: whitesmoke;
 	border: 5px solid hotpink;
-	border-radius: 20px;
 }
 
 .box3 {
-	width: 100px;
-	height: 100px;
-	background-color: whitesmoke;
 	border: 5px solid fuchsia;
-	border-radius: 20px;
 }
