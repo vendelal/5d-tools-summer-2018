@@ -1,0 +1,62 @@
+body {
+	color: deeppink;
+	font-family: Trebuchet MS;
+	background: lavenderblush;
+}
+
+h1 {
+	font-family: Verdana;
+	background-color: black;
+	text-align: center;
+}
+
+h2 {
+	color: pink;
+}
+
+ul {
+	list-style-type: square;
+}
+
+ol {
+	list-style-type: upper-alpha;
+}
+
+li {
+	font-size: 8px;
+}
+
+div {
+	background-color: black;
+	height: 40px;
+}
+
+div p {
+	background-color: deeppink;
+	font-size: 2em;
+	color: white;
+}
+
+.special-header {
+	background-color: deeppink;
+}
+
+em {
+	font-weight: bolder;
+}
+
+.box1, .box2, .box3 {
+	width: 100px;
+	height: 100px;
+	background-color: whitesmoke;
+	border: 5px solid darkmagenta;
+	border-radius: 20px;
+}
+
+.box2 {
+	border: 5px solid hotpink;
+}
+
+.box3 {
+	border: 5px solid fuchsia;
+}
