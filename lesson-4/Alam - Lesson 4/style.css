@@ -1,0 +1,70 @@
+ body {
+  color: lightslategray;
+  background-color: lightgreen;
+ }
+
+ h1 {
+  font-family: verdana, sans-serif;
+  text-align: center;
+ }
+
+ /* there are three fonts in the font section in case the browser does not support that family */
+
+ h2 {
+  color: purple;
+  font-size: 27px;
+  /* you can also say "em" to specify a size */
+  /* rem = relative em*/
+ }
+
+ul {
+  list-style-type: square;
+}
+
+ol {
+  list-style-type: lower-roman;
+}
+
+div {
+  height: 300px;
+  width: 350px;
+  background-color: palegoldenrod;
+}
+
+div p {
+  background-color: pink;
+  font-size: 2em;
+}
+
+.special-header {
+  color: blue;
+}
+
+#what-is-css {
+  background-color: lightpink;
+}
+
+.first-box {
+  border-radius: 30px;
+  border: 5px solid pink;
+}
+
+.second-box {
+  border-radius: 30px;
+  border: 5px solid rosybrown;
+}
+
+.third-box {
+  border-radius: 30px;
+  border: 5px solid sandybrown;
+}
+
+em {
+  font-weight: bold;
+}
+/*Wasn't sure if you wanted us to do this part in css or html since you said "some" so I did both :) */
+
+li {
+  font-size: 20px
+}
+
