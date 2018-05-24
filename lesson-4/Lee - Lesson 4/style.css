@@ -1,0 +1,69 @@
+body{
+  color:MidnightBlue;
+  background-color:LavenderBlush;
+}
+
+h1{
+  font-family: Gotham, arial, sans-serif;
+  text-align: center;
+}
+
+h2{
+  font-family: Helvetica;
+  color:RoyalBlue;
+  font-size: 1.5rem;
+}
+
+p{
+  font-family: Gotham;
+}
+
+ul{
+  list-style-type: square;
+  font-family: Helvetica;
+}
+
+li{
+  font-size: 1rem;
+}
+
+ol{
+  list-style-type: lower-alpha;
+  font-family: Helvetica;
+}
+
+div{
+  background-color:Thistle;
+  height: 100px;
+  width: 200px;
+}
+
+div p{
+  background-color:pink;
+  font-size:1.5em;
+}
+
+.special-header {
+  color: RebeccaPurple;
+}
+
+#what-is-css {
+  background-color: Plum;
+}
+
+em{
+  font-size: 3rem;
+  font-style: normal;
+}
+
+.box{
+  float:center;
+  width:50px;
+  height:50px;
+  margin-left:50px;
+  margin-top:50px;
+  background-color:pink;
+  padding:50px;
+  border:10px solid RoyalBlue;
+  border-radius: 20%;
+}
