@@ -1,0 +1,29 @@
+ body {
+  font-family: "Work Sans", sans-serif;
+}
+
+
+#innerDiv { 
+	background-color: #f2f2f2;
+	width: 275px;
+	height: 250px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-align: center;
+	margin-top: -5px;
+}
+
+#textDiv {
+	background-color: #ff7668;
+	border-radius: 10px;
+	text-align: center;
+	width: 55px;
+	padding: 0 100px;
+	padding-top: 7px;
+	padding-bottom: 7px;
+	margin-top: 80px;
+	margin-right: 10px;
+	margin-left: 10px;
+	margin-bottom: 20px;
+
+}
