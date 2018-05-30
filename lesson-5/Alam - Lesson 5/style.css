@@ -1,0 +1,30 @@
+body {
+  font-family: "Work Sans", sans-serif;
+}
+
+.container {
+  background-color: #F7F2F2;
+  padding: 0px;
+  height: 485px;
+  width: 275px;
+}
+
+.text {
+  text-align: left;
+  padding: 15px 30px;
+}
+
+div p {
+  font-size: 14px;
+  margin-bottom: 30px;
+}
+
+div a {
+  font-size: 14px;
+  padding: 8px 85px;
+  border-radius: 5px;
+  background-color: #FC6062;
+  align-self: center;
+  color: white;
+  text-decoration-line: none;
+}
