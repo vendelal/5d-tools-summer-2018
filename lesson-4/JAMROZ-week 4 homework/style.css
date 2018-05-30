@@ -1,0 +1,63 @@
+body {
+color:white;
+background-color: darkgrey;
+text-align: center;
+}
+
+h1 {
+  font-size:60px;
+  font-family: Helvetica, arial, sans-serif;
+  text-align: center;
+  background-color:dimgrey;
+  padding: 20px;
+}
+
+h2{
+  font-size: 50px;
+}
+
+
+
+p {
+  font-size:30px;
+}
+
+a {
+  font-size: 40px;
+  text-decoration: inherit;
+}
+
+em {
+
+  font-style: normal;
+  font-weight: bold;
+}
+
+.paintingsbutton {
+  text-align:left;
+  border:solid 5px dimgrey;
+  border-radius: 20px;
+  padding: 10px 80px;
+  background-color: white;
+
+}
+
+.drawingsbutton {
+  text-align: center;
+  border:solid 5px dimgrey;
+  border-radius: 20px;
+  padding: 10px 80px;
+  background-color: white;
+
+}
+
+.artbutton {
+  text-align:right;
+  border:solid 5px dimgrey;
+  border-radius: 20px;
+  padding: 10px 80px;
+  background-color: white;
+}
+
+
+
