@@ -1,0 +1,42 @@
+body {
+  font-family: "Work Sans", sans-serif;
+}
+
+a {
+	padding: 5px;
+	background: #f96165;
+	color: #FFF;
+	border-radius: 10px;
+	text-align: center;
+	text-transform: uppercase;
+	display:block;
+	margin:10px 50px;
+
+}
+
+p {
+	display: block;
+	text-align: center
+}
+
+h3 {
+	text-align:center;
+	display:block;
+}
+
+.Box {
+	background-color: #f7f1f1;
+	height: 475px
+
+}
+
+div{
+	margin:0 auto;
+	width:300px;
+}
+
+img {
+	margin:0 auto;
+	width:300px;
+	display:block;
+}
