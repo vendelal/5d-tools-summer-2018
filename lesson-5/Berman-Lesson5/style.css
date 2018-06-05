@@ -1,0 +1,40 @@
+body {
+  font-family: "Work Sans", sans-serif;
+  text-align: center;
+}
+
+div{
+  margin: auto;
+  width: 275px;
+  background-color: #f7f2f2;
+  padding-bottom: 20px;
+}
+
+h3{
+  padding-top: 20px;
+}
+
+p{
+  text-align: left;
+  padding-left: 40px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  font-size: 10pt;
+}
+
+.one{
+  padding-top: 6px;
+  margin: auto;
+  width: 200px;
+  height: 8px;
+  border-style: none;
+  border-radius: 5px;
+  background-color: #fc6264
+}
+
+a{
+  color: white;
+  text-decoration: none;
+  font-size: 10pt;
+  font-weight: 2;
+}
