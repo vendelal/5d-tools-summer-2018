@@ -1,0 +1,28 @@
+.flexnav {
+	display:flex;
+	justify-content: space-around;
+	direction: row;
+	align-content: center;
+}
+
+.flexheader {
+	display:flex;
+	justify-content: space-around;
+}
+
+.flexcontents {
+	justify-content: center;
+}
+
+.flexprojects {
+	display:flex;
+	justify-content: space-between;
+	direction: row;
+	align-content: center;
+}
+
+.flexfooter {
+	display:flex;
+	justify-content: center;
+	direction: column;
+}
