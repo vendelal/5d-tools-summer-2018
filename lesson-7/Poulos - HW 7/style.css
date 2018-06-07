@@ -1,0 +1,48 @@
+
+
+
+h1 {
+	align-items: center;
+}
+
+.featured-project {
+	display: flex;
+}
+
+.cool-project {
+	display: flex;
+}
+
+/* I tried everything and I couldn't make it
+appear to be next to each other. I'm not sure how to do it.
+The best I could get was for everything to be in a column.
+Also, for some reason my containerFeat wouldn't change :(*/
+ 
+.containerFeat {
+	justify-content: center;
+	justify-content: space-around;
+	align-items: center;
+	flex-direction: column;
+}
+
+.container1 {
+	justify-content: center;
+	justify-content: space-around;
+	align-items: center;
+	flex-direction: column;
+
+}
+
+.container2 {
+	justify-content: center;
+	justify-content: space-around;
+	align-items: center;
+	flex-direction: column;
+}
+
+.container3 {
+	justify-content: center;
+	justify-content: space-around;
+	align-items: center;
+	flex-direction: column;
+}
