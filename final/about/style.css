@@ -1,0 +1,78 @@
+body {
+    font-family: "Merriweather";
+}
+
+.header-text {
+  color: #C5A1A1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 120px;
+}
+
+.header-text h1 {
+  margin-bottom: 0;
+}
+
+.header-text h2 {
+  font-style: italic;
+  font-weight: normal;
+  padding-left: 300px;
+  margin-top: 0;
+}
+
+nav ul {
+  display: flex;
+  flex-direction: row;
+}
+
+nav li {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}
+
+.primary {
+  margin: 10px;
+  padding: 25px 90px;
+  background-color: #87C9D8;
+}
+
+.secondary {
+  margin: 10px;
+  padding: 25px 90px;
+  background-color: white;
+  border-color: #87C9D8;
+  border-style: solid;
+  border-top-style: none;
+}
+
+nav img {
+  height: 30px;
+}
+
+.logo {
+  margin: 10px;
+  padding: 25px 50px;
+  height: 20px;
+}
+
+.aboutme {
+  display: flex;
+  justify-content: center;
+}
+
+.aboutme img {
+  margin-right: 25px;
+  height: 400px;
+}
+
+.aboutme p {
+  margin-top: 0;
+  padding: 25px;
+  color: #736161;
+  width: 400px;
+  background-color:#F8DDDD;
+  height: 100%;
+  text-align: center;
+}
