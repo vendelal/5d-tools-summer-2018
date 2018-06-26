@@ -1,0 +1,158 @@
+body {
+  font-family: "Work Sans", sans-serif;
+  font-style: normal;
+  margin: 24px;
+  padding: 50px;
+}
+
+
+/* top */
+nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+ul {
+  list-style-type: none;
+  text-transform: lowercase;
+  overflow: hidden;
+}
+
+a:hover {
+  opacity: .3;
+}
+
+a.active {
+  color: rgba(187, 107, 217, 0.53);
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: #C0C0C0;
+  text-align: center;
+  padding: 14px 25px;
+  text-decoration: none;
+  font-size: 1em;
+  letter-spacing: .1px;
+}
+
+
+/* typogrpahy */
+h3{
+  color: #C0C0C0;
+  letter-spacing: 3px;
+  font-size: 2em;
+}
+
+h1{
+  font-size: 3em;
+  text-transform: uppercase;
+  font-weight: lighter;
+  letter-spacing: .1em;
+}
+
+h2{
+  font-size: 24px;
+  text-transform: uppercase;
+  letter-spacing: .1em;
+}
+
+h4{
+  font-size: 16px;
+}
+
+time{
+  color: #808080;
+  text-transform: uppercase;
+  letter-spacing: .1em;
+  font-size: 14px;
+}
+
+label{
+  color: #C0C0C0;
+  text-transform: uppercase;
+  font-size: 14px;
+  letter-spacing: .1em;
+}
+
+p{
+  font-size: 12px;
+  line-height: 24px;
+}
+
+
+/* spaces */
+div.block-large{
+  height:400px;
+  display: block;
+}
+
+div.block-mid{
+  height:200px;
+  display: block;
+}
+
+div.block-small{
+  height:100px;
+  display: block;
+}
+
+div.block-xs{
+  height:20px;
+  display: block;
+}
+
+
+/* place-container */
+div.place-container{
+  margin: 0 200px;
+  max-width: 1000px;
+  position: relative;
+  display: flex;
+  align-items: stretch;
+}
+
+div.place-text{
+  width: 300px;
+  padding-left: 100px;
+}
+
+/* drawings-container */
+div.drawings-container{
+  margin: 0 200px;
+  display: flex;
+  justify-content: space-between;
+  align-content: stretch;
+  flex-wrap: wrap;
+}
+
+/* art-description */
+div.art-description{
+  display: block;
+  margin: 0 200px;
+  padding-left: 634.38px;
+  position: relative;
+  width: 300px;
+}
+
+div.question{
+  margin: 0 200px;
+  display: block;
+  width: 300px;
+  position: relative;
+  padding-left: 634.38px;
+}
+
+
+
+
+
+
+
+
+

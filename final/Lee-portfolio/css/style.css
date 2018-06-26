@@ -1,0 +1,229 @@
+body {
+  font-family: "Work Sans", sans-serif;
+  font-style: normal;
+  margin: 24px;
+  padding: 50px;
+}
+
+
+/* top */
+nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+ul {
+  list-style-type: none;
+  text-transform: lowercase;
+  overflow: hidden;
+}
+
+a:hover {
+  opacity: .3;
+}
+
+a.active {
+  color: rgba(187, 107, 217, 0.53);
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: #C0C0C0;
+  text-align: center;
+  padding: 14px 25px;
+  text-decoration: none;
+  font-size: 1em;
+  letter-spacing: .1px;
+}
+
+/* typography */
+h3{
+  color: #C0C0C0;
+  letter-spacing: 3px;
+  font-size: 2em;
+}
+
+h1{
+  font-size: 3em;
+  text-transform: uppercase;
+  font-weight: lighter;
+  letter-spacing: .1em;
+  line-height: 1em;
+}
+
+h2{
+  font-size: 24px;
+  text-transform: uppercase;
+  letter-spacing: .1em;
+}
+
+h4{
+  font-size: 16px;
+}
+
+time{
+  color: #808080;
+  text-transform: uppercase;
+  letter-spacing: .1em;
+  font-size: 14px;
+}
+
+label{
+  color: #C0C0C0;
+  text-transform: uppercase;
+  font-size: 14px;
+  letter-spacing: .1em;
+}
+
+p{
+  font-size: 12px;
+  line-height: 24px;
+}
+
+
+/* homepage *//* homepage *//* homepage *//* homepage *//* homepage */
+.homepage-container{
+  margin: 0 auto 200px;
+  max-width: 1000px;
+  padding-top: 100px;
+  padding-left: 450px;
+  position: relative;
+}
+
+.homepage-container .img-container{
+  padding-left: 55px;
+  padding-bottom: 100px;
+}
+
+.homepage-container .text-container{
+  display: flex;
+}
+
+.text-container .vertical-line{
+  display: flex;
+  width: 4px; /* Line width */
+  background-color: black; /* Line color */
+  height: 5000px; /* Override in-line if you want specific height. */
+  display: inline-block;
+}
+
+.text-container .content {
+  padding-top: 250px;
+  padding-left: 55px;
+}
+
+.text-container .content h1{
+  padding-bottom: 100px;
+}
+
+.text-container .subtitle{
+  padding-top: 4480px;
+}
+
+a.button{
+  text-transform: uppercase;
+  letter-spacing: .3em;
+  font-weight: lighter;
+  text-decoration: none;
+  font-size: 1em;
+  color: white;
+  background-color: rgba(187, 107, 217, 0.53);
+  box-sizing: border-box;
+  width: 48%;
+  height: 15%;
+  text-align: center;
+  padding: 20px 60px;
+  border-radius: 7px;
+}
+
+
+/* aboutpage *//* aboutpage *//* aboutpage *//* aboutpage *//* aboutpage */
+.text-container .bio-content {
+  padding-top: 250px;
+  padding-left: 55px;
+  width: 350px;
+  line-height: 1.7em;
+}
+
+.text-container .bio-content h1{
+  padding-bottom: 100px;
+  color: rgba(187, 107, 217, 0.53);
+}
+
+/* Mobile Styles */
+@media only screen and (max-width: 400px) {
+  body {
+    background-color: #fff0f1;
+  }
+}
+
+/* Tablet Styles */
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+  body {
+    background-color: #EAEDF0;
+  }
+}
+
+/* Desktop Styles */
+@media only screen and (min-width: 961px) {
+  body {
+    background-color: white;
+  }
+}
+
+
+
+
+/* texturepage *//* texturepage *//* texturepage *//* texturepage */
+.texture-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 150px 200px;
+}
+
+.texture-container .texture-text{
+  padding-right: 100px;
+}
+
+
+.texture-image1{
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 100px;
+  padding-bottom: 100px;
+}
+
+.texture-image2{
+  display: flex;
+  justify-content: flex-start;
+  padding-left: 200px;
+  padding-top: 80px;
+}
+
+div.art-description{
+  display: block;
+  margin: 0 200px;
+  padding-left: 500px;
+  position: relative;
+  width: 300px;
+}
+
+.art-description p{
+  padding-bottom: 20px;
+}
+
+div.question{
+  margin: 0 200px;
+  display: block;
+  width: 300px;
+  position: relative;
+  padding-left: 500px;
+  padding-top: 100px;
+  padding-bottom: 400px;
+}
