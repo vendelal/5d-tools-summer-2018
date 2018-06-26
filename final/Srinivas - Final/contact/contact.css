@@ -1,0 +1,29 @@
+.flex-container {
+	display: flex;
+}
+
+img {
+	width: 300px;
+	height: 100%;
+}
+
+.content {
+	justify-content: flex-start;
+	padding: 50px 150px 10px 150px;
+}
+
+.text {
+	margin-left: 50px;
+}
+
+.text h3{
+	font-size: 60px;
+	color: #8F8F8F;
+}
+
+p {
+	margin-top: -10px;
+	padding-left: 20px;
+	color: #BDBDBD;
+	font-size: 30px;
+}
