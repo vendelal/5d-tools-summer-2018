@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>RSB Photography</title>
+    	<link rel="stylesheet" href="style.css">
+    	<link href="https://fonts.googleapis.com/css?family=Lato:100" rel="stylesheet">
+	</head>
+
+	<body>
+		<div class="top">
+			<nav>
+				<ul class="homepage">
+				  <li><a href="http://www.rachelberkowitzphotography.com"">Home</a></li>
+				  <li><a href="Galleries">Galleries</a></li>
+				  <li><a href="Portfolio">Portfolio</a></li>
+				  <li><a href="About">About</a></li>
+				  <li><a href="Contact">Contact</a></li>
+				</ul>
+			</nav>
+			<h2> RSB Photography </h2>
+		</div>
+		<hr>
+
+		<h1>Welcome</h1>
+
+				<div class="slideshow-container">
+				  <div class="mySlides fade">
+				    <div class="numbertext">1 / 3</div>
+				    <img src="images/homepage1.jpg" style="width:100%">
+				  </div>
+
+				  <div class="mySlides fade">
+				    <div class="numbertext">2 / 3</div>
+				    <img src="images/homepage2.jpg" style="width:100%">
+				  </div>
+
+				  <div class="mySlides fade">
+				    <div class="numbertext">3 / 3</div>
+				    <img src="images/homepage3.jpg" style="width:100%">
+				  </div>
+
+
+				 <script>
+								 	var slideIndex = 0;
+				showSlides();
+
+				function showSlides() {
+				    var i;
+				    var slides = document.getElementsByClassName("mySlides");
+				    for (i = 0; i < slides.length; i++) {
+				        slides[i].style.display = "none"; 
+				    }
+				    slideIndex++;
+				    if (slideIndex > slides.length) {slideIndex = 1} 
+				    slides[slideIndex-1].style.display = "block"; 
+				    setTimeout(showSlides, 5000); 
+				}
+				 </script>
+		</div>
+	</body>
+</html>
