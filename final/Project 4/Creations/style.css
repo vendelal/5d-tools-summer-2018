@@ -1,0 +1,103 @@
+.flex-style-medium{
+	display: flex;
+	flex-direction: row;
+}
+
+.medium{
+	margin:  30px 30px;
+}
+
+body{
+	background-color: #E13700;
+	background-image: linear-gradient(#E13700, #8EA604);
+	background-size: 1000px 1000px;
+}
+
+.with-image1{
+	background-image: url("images/5D Project - name.jpg");
+	background-size: contain;
+	z-index: 1;
+}
+
+.with-image2{
+	background-image: url("images/20180611_150723.jpg");
+	background-size: contain;
+	z-index: 1;
+}
+.with-image3{
+	background-image: url("images/Capture 10.jpg");
+	background-size: contain;
+	z-index: 1;
+}
+.with-image4{
+	background-image: url("images/Leylanah.Mitchell_assignment.3.jpg");
+	background-size: contain;
+	z-index: 1;
+}
+.with-image5{
+	background-image: url("images/20180619_141500.jpg");
+	background-size: contain;
+	z-index: 1;
+}
+.with-image6{
+	background-image: url("images/.jpg");
+	background-size: contain;
+	z-index: 1;
+}
+div {
+	width: 350px;
+	height: 350px;
+	display: block;
+	border-radius: 10px;
+	text-align: center;
+}
+
+ul {
+	display: flex;
+	flex-direction: row;
+}
+
+li{
+	display: flex;
+	align-items: center;
+	margin: 0px 100px 5px 200px;
+}
+
+h2{
+	font-family: 'Reenie Beanie', cursive;
+	font-size: 40px;
+	font-weight: bold;
+	color: #394753;
+	text-shadow: 3px 5px 11px #8EA604;
+}
+
+button { 
+	background-color: #ACBE48;
+	border-radius: 10px;
+	border-color: #394753;
+	margin: 50px auto;
+	height: 40px;
+	width: 200px
+}
+
+a{
+	text-decoration: none;
+	color: #394753;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: bold;
+}
+
+.a2{
+	font-family: 'Reenie Beanie', cursive;
+	font-size: 40px;
+	font-weight: bold;
+	color: #394753;
+	text-shadow: 3px 5px 11px #E65B2E;
+
+	transition-property: text;
+	transition-delay: 0s;
+	opacity: 0.6;
+	transition-duration: .3s;
+}
+
+.a2:hover {opacity: 1}
