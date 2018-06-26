@@ -1,0 +1,57 @@
+body {
+  font-family: 'Work Sans', sans-serif;
+  color: white;
+}
+
+.featured-project {
+  background-color:#f96165;
+}
+
+.featured-project .text-container,
+.featured-project .image-container {
+  width:50%;
+}
+
+.featured-project .image-container{
+  text-align: center;
+}
+
+.featured-project .text-container {
+  display:flex;
+  flex-direction:column;
+  height:400px;
+  background-color:#f96165;
+  justify-content:center;
+}
+
+.container {
+  display:flex;
+  padding:100px;
+  justify-content: space-between;
+}
+
+.project-card-horizontal{
+  background-color: #f7f1f1;
+  width:43%;
+  padding:25px;
+  box-sizing: border-box;
+  display:flex;
+}
+
+
+.project-card-horizontal .text-container {
+  margin-left:25px;
+}
+
+.text-container{
+  color:white;
+}
+
+h3, h2, p {
+  color:gray;
+}
+
+time {
+  color:pink;
+}
+
