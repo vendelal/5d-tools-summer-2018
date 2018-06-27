@@ -1,0 +1,245 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: #727272;
+}
+
+/*Tablet size*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .button {
+        font-size: 0.8rem;
+        padding: 1.2em 3.5em;
+    }
+    /*Note: for some reason, these changes weren't being made at this point, but I kept it to show
+    what I had planned to do*/
+    /* Change projects to be viewed in column layout*/
+    .project {
+        flex-direction: column;
+    }
+    /*Center navigation links*/
+    nav>h4 {
+        display: none;
+    }
+    nav>ul {
+        justify-content: center;
+        margin: 1em auto;
+    }
+}
+
+h1 {
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+h2 {
+    font-size: 2rem;
+    font-weight: 100;
+}
+
+h3 {
+    text-transform: uppercase;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+h4 {
+    font-size: 1rem;
+    font-weight: 100;
+}
+
+br {
+    line-height: 2rem;
+}
+
+p {
+    font-weight: lighter;
+    color: #7C7C7C;
+    font-family: 'Rubik', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #8ddced;
+}
+
+nav {
+    position: fixed;
+    top: 0.5em;
+    width: 100%;
+    display: flex;
+    direction: row;
+    align-content: center;
+    background-color: white;
+    opacity: 0.8;
+    border-bottom: 0.02rem solid #ededed;
+}
+
+nav>h4 {
+    margin-right: auto;
+    padding: 0 1.5em;
+}
+
+nav>ul {
+    justify-content: flex-end;
+    list-style: none;
+    margin-left: auto;
+}
+
+nav>ul li {
+    display: inline-block;
+}
+
+nav>ul li a {
+    color: #727272;
+    font-size: 1rem;
+    margin: 0 1.5em;
+    padding-bottom: 0.3em;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+}
+
+nav>ul li a:hover {
+    border-bottom: 0.1rem solid #8ddced;
+}
+
+#current-page {
+    color: #8ddced;
+    border-bottom: 0.1rem solid #8ddced;
+}
+
+header {
+    margin: 10em auto;
+    text-align: center;
+    width: 60%;
+}
+
+header>h1 {
+    line-height: 1em;
+}
+
+#header-links {
+    padding: 1em;
+}
+
+.button {
+    box-sizing: content-box;
+    display: inline;
+    border-radius: 3.125em;
+    padding: 1.2em 4.5em;
+    margin: 0 1em;
+    color: white;
+    letter-spacing: 0.1em;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.pbutton {
+    background-color: #8ddced;
+    border: 0.1em solid #8ddced;
+}
+
+.pbutton:hover {
+    background-color: white;
+    border: 0.1em solid #8ddced;
+    color: #8ddced;
+}
+
+.sbutton {
+    background-color: #d8d8d8;
+    border: 0.1em solid #d8d8d8;
+}
+
+.sbutton:hover {
+    background-color: white;
+    border: 0.1em solid #d8d8d8;
+    color: #d8d8d8;
+}
+
+.sub-button {
+    background-color: white;
+    border: 0.1em solid #636363;
+    color: #636363;
+    font-size: 0.8rem;
+    padding: 1.2em 3.5em;
+}
+
+.sub-button:hover {
+    background-color: #636363;
+    border: 0.1em solid #636363;
+    color: white;
+}
+
+.proj-button {
+    padding: 0.8em 3.8em;
+    display: inline-block;
+    margin: 0 auto;
+}
+
+#container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+}
+
+#contents {
+    margin: 4em 1em;
+    width: 100%;
+}
+
+#list {
+    margin: 10em 15em;
+}
+
+#list>ul {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 100;
+    color: #7C7C7C;
+}
+
+.projects {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+}
+
+.project-card {
+    margin: 1em;
+    padding: 1em;
+    background-color: #ededed;
+    border-radius: 1em;
+    display: flex;
+    flex-direction: row;
+}
+
+.project-card-img {
+    width: 30%;
+    height: 30%;
+    padding-right: 1em;
+}
+
+.project-card-desc {
+    text-align: center;
+}
+
+.project-card-desc>p, h3 {
+    text-align: left;
+}
+
+footer {
+    text-align: center;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+footer>p {
+    display: inline-block;
+    padding-top: 0.5em;
+    border-top: 0.02rem solid #ededed;
+    font-size: 0.8rem;
+}
