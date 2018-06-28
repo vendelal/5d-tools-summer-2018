@@ -1,0 +1,103 @@
+nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+/* nav ul */
+
+ul{
+  display: flex;
+}
+
+li{
+  display: flex;
+  flex-flow: column;
+  justify-content: wrap;
+}
+
+
+
+.featured-project{
+  display: flex;
+  justify-content: space-between;
+}
+
+.featured-project .text-container,
+.featured-project .image-container{
+  width: 50%;
+}
+
+img{
+  display: block;
+}
+
+.container{
+  display: flex;
+  justify-content: space-between;
+  margin: 40px;
+}
+
+
+/* buttons */
+
+a.white{
+  display: block;
+  text-align: center;
+}
+
+a.outline{
+  display: block;
+  text-align: center
+}
+
+.first-row{
+  width: 48%;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+}
+
+
+.first-row .text-container,
+.first-row .image-container{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+
+label{
+  display: block;
+  text-align: center;
+}
+
+
+.container .second-row{
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+}
+
+.second-row .text-container,
+.second-row .image-container{
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+
+.container .third-row{
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+footer p{
+  text-align: center;
+}
+
+footer ul{
+  justify-content: center;
+}
