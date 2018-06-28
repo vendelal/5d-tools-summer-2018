@@ -1,0 +1,92 @@
+
+body {
+  font-family: "Work Sans", sans-serif;
+}
+
+h1 {
+	align-items: center;
+	font-family: 'Open Sans Condensed', sans-serif;
+
+}
+
+ul {
+	top: 0;
+	width: 100%;
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+    overflow: hidden;
+    background-color: #ffffff;
+}
+
+li {
+    float: right;
+    display: block;
+    padding: 8px;
+    text-decoration: none;
+}
+
+ 
+.featured-project {
+	background-color: #fc6163;
+}
+
+.featured-project .img-container,
+.featured-project .text-container {
+	width: 50%;
+}
+
+.featured-project .img-container {
+	text-align: center;
+}
+
+
+.featured-project .text-container {
+	display: flex;
+	flex-direction: column;
+	height: 400px;
+	justify-content: center;
+}
+
+.container {
+	display: flex;
+	padding: 100px;
+	justify-content: space-between;
+}
+
+.project-horizontal {
+	background-color: #f2f2f2;
+	width: 48%;
+	box-sizing: border-box;
+	padding: 25px;
+	display: flex;
+}
+
+.project-horizontal .text-container {
+	margin-left: 25px;
+}
+
+.project-vertical {
+	background-color: #f2f2f2;
+	width: 48%;
+	box-sizing: border-box;
+	padding: 25px;
+	display: flex;
+
+}
+
+.project-vertical .text-container {
+	text-align: center;
+	justify-content: space-between;
+}
+
+.one-third {
+	justify-content: space-around;
+	width: 33.3%;
+}
+
+
+
+
+
+
