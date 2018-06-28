@@ -1,0 +1,37 @@
+.flex-container {
+	display: flex;
+	list-style: none;
+}
+
+.tabs {
+	justify-content: flex-end;
+}
+
+.featured-project {
+	justify-content: space-around;
+}
+
+.two-cool-projects {
+	justify-content: space-around;
+}
+
+.project1 {
+	justify-content: space-around;
+}
+
+.three-cool-projects {
+	justify-content: space-around;
+}
+
+.two-big-projects {
+	justify-content: space-around;
+}
+
+.follow-me {
+	text-align: center;
+	justify-content: space-around;
+}
+
+.social-media {
+	justify-content: center;
+}
