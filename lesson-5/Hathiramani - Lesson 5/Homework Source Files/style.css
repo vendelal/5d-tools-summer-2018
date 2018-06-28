@@ -1,0 +1,30 @@
+body {
+  font-family: "Work Sans", sans-serif;
+}
+
+.container {
+  margin: 0 auto;
+  width: 275px;
+}
+
+.description{
+  background-color: #f7f2f2;
+  padding: 20px;
+  margin-top: -5px;
+}
+h1{
+  font-size: 20px;
+}
+
+a{
+  background-color: #fc6163;
+  border-radius: 5px;
+  color: white;
+  display: block;
+  font-weight: 700;
+  letter-spacing: 1px;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+}
