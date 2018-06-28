@@ -1,0 +1,108 @@
+
+
+ul {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+
+}
+
+li {
+  display:flex;
+  list-style: none;
+  flex-direction: row;
+
+}
+
+nav{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+
+}
+
+header{
+display: flex;
+background-color: #FC6062;
+align-content: space-around;
+padding: 100px;
+}
+
+.top-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+#header-1 {
+  display:flex;
+  justify-content: space-around;
+  flex-direction: row;
+}
+
+.smaller{
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+
+}
+
+.top-row-left{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 50px;
+
+}
+
+.top-row-right {
+   display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 50px;
+}
+
+
+.wrapper {
+display: flex;
+justify-content: space-between;
+flex-direction: column;
+
+}
+
+#header-3 {
+  display: flex;
+  background-color: white;
+  flex-direction: row;
+}
+
+
+#header-2 {
+  display: flex;
+  background-color: white;
+  flex-direction: row;
+}
+
+
+
+#header-4 {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+}
+
+.links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+
+}
+
+
+}
