@@ -1,0 +1,187 @@
+* {
+	font-family: 'Josefin Sans', sans-serif;
+	text-decoration: none;
+	font-weight: bolder;
+}
+
+.flex-container {
+	display: flex;
+	list-style: none;
+}
+
+nav {
+	margin-left: -15px;
+	margin-right: 30px;
+	margin-top: 0px;
+}
+
+li {
+	margin: 10px;
+	margin-top: 20px;
+}
+
+a {
+	text-transform: uppercase;
+	color: rgb(250, 98, 102);
+	font-size: 14px;
+}
+
+.selected {
+	align-self: flex-start;
+	margin-top: 0px;
+	text-transform: none;
+}
+
+.push {
+	margin-left: auto;
+}
+
+.featured-project {
+	justify-content: space-around;
+	padding: 100px;
+	padding-left: 125px;
+	padding-right: 125px;
+	background-color: rgb(250, 98, 102);
+	color: white;
+}
+
+.project-desc {
+	margin-right: 100px;
+	margin-top: 50px;
+}
+
+h1 {
+	font-weight: bolder;
+}
+
+p {
+	line-height: 30px;
+	font-size: 14px;
+}
+
+.header-button {
+	background-color: white;
+	border-radius: 5px;
+	border-color: white;
+	padding: 10px 60px;
+	align-self: center;
+}
+
+.two-cool-projects {
+	justify-content: space-around;
+	margin-top: 60px;
+	align-content: stretch;
+}
+
+.project1 {
+	justify-content: space-around;
+	margin: 40px;
+	background: rgb(247, 242, 242);
+	padding: 20px;
+}
+
+time {
+	color: rgb(243, 157, 159);
+	text-transform: uppercase;
+	font-size: 14px;
+	font-weight: bolder;
+}
+
+.img1 {
+	width: 25%;
+	height: 65%;
+	padding-right: 20px;
+	padding-top: 10px;
+	padding-left: 20px;
+}
+
+.project-desc2 p {
+	font-size: 12px;
+	line-height: 20px;
+	margin-right: 70px;
+}
+
+.project-desc2 {
+	margin-left: 20px;
+}
+
+button {
+	background-color: rgb(247, 242, 242);
+	border-radius: 5px;
+	border-color: rgb(250, 98, 102);
+	padding: 10px 40px;
+	align-self: center;
+}
+
+.para {
+	font-size: 12px;
+	line-height: 20px;
+	margin: 20px;
+}
+
+.three-cool-projects {
+	justify-content: space-around;
+	margin: 20px;
+	margin-bottom: 50px;
+}
+
+.project2 {
+	background-color: rgb(247, 242, 242);
+	text-align: center;
+	width: 350px;
+}
+
+.category {
+	background-color: white;
+}
+
+.sub-project1 {
+	margin-top: -5px;
+	padding: 25px;
+}
+
+h4 {
+	color: rgb(250, 98, 102);
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.img2 {
+	width: 350px;
+}
+
+.two-big-projects {
+	justify-content: space-around;
+	margin: 20px;
+	margin-bottom: 50px;
+}
+
+.img3 {
+	width: 550px;
+}
+
+.project3 {
+	background-color: rgb(247, 242, 242);
+	text-align: center;
+	width: 550px;
+	padding-bottom: 50px;
+}
+
+.footer {
+	background-color: rgb(74, 74, 74);
+	text-align: center;
+	align-content: center;
+	padding: 75px;
+}
+.follow-me {
+	text-align: center;
+	justify-content: center;
+	text-transform: none;
+	color: white;
+}
+
+.social-media {
+	padding-left: 300px;
+	padding-right: 300px;
+	justify-content: space-around;
+}
