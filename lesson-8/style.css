@@ -1,0 +1,150 @@
+.flex-style-small{
+	display: flex;
+	justify-content: space-between;
+}
+
+.flex-style-medium{
+	display: flex;
+	justify-content: space-between;
+}
+
+.flex-style-large{
+	display: flex;
+	justify-content: space-between;
+}
+
+.flex-style-nav{
+	display: flex;
+	flex-direction: row;
+	margin: auto 600px auto 30px;
+}
+
+ul{
+	display: flex;
+	flex-direction: row;
+}
+
+li{
+	margin: auto 50px;
+	font-weight: bold;
+}
+
+h3{
+	font-family: 'Work Sans', sans-serif;
+	color: #3d464d;
+}
+
+h1{
+	font-family: 'Work Sans', sans-serif;
+	color: #3d464d;
+	display: block;
+}
+
+.big-h1{
+	color: #fff;
+
+}
+
+time {
+	font-family: 'Work Sans', sans-serif;
+	color: #f96165;
+	display: block;
+}
+
+.big-time{
+	color: #fff;
+}
+
+p{
+	font-family: 'Work Sans', sans-serif;
+	color: #3d464d;
+	display: block;
+}
+
+.big-p{
+	color: #fff;
+}
+
+a{
+	font-family: 'Work Sans', sans-serif;
+	font-weight: bold;
+	color: #f96165;
+	text-decoration: none;
+	display: block;
+}
+
+button { 
+	background-color: #f7f2f2;
+	border-radius: 5px;
+	border-color: #f96165;
+	margin: 30px 42px;
+	height: 40px;
+	width: 200px
+}
+
+.white-button{
+	background-color: #fff;
+	border-color: #fff;
+}
+
+div{
+	box-sizing: content-box;
+	margin:  0px 30px;
+	display: block;
+	text-align: center;
+}
+
+.big-div2{
+	box-sizing: content-box;
+	margin:  auto 30px;
+	display: block;
+	text-align: left;
+}
+
+.small-div{
+	box-sizing: content-box;
+	margin:  0px 30px;
+	display: block;
+	text-align: left;
+	align-items: center;
+}
+
+.big-div{
+	background-color: #f96165;
+	width: 1000px;
+	height: 500px;
+	border-radius: 5px;
+	margin:  auto auto;
+	display: flex;
+	flex-direction: row-reverse;
+}
+
+.small{
+	background-color: #f7f2f2;
+	width: 600px;
+	height: 300px;
+	border-radius: 5px;
+	margin:  30px 30px;
+	display: flex;
+	align-items: center;
+}
+
+.medium{
+	background-color: #f7f2f2;
+	width: 400px;
+	height: 500px;
+	border-radius: 5px;
+	margin:  30px 30px;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.large{
+	background-color: #f7f2f2;
+	width: 800px;
+	height: 500px;
+	border-radius: 5px;
+	margin:  30px 30px;
+	display: flex;
+	flex-wrap: wrap;
+}
