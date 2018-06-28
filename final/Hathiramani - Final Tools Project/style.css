@@ -1,0 +1,120 @@
+body .box{
+  font-family: 'Montserrat';
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+
+.container {
+  display:flex;
+  justify-content: flex-start;
+  align-items: right;
+  padding-right: 300px ;
+  padding-top: 50px;
+}
+
+h1{
+  font-size: 75px
+}
+
+.content {
+  padding-top: 50px;
+  padding-left: 75px;
+  padding-right: 75px;
+}
+
+.box h1{
+  margin-top: 20%;
+  padding-left: 200px;
+  padding-right: 200px;
+}
+
+.alignment {
+  margin-left: 46% !important;
+}
+
+.para {
+  font-size: 16px;
+  width: 30%;
+}
+
+.button {
+  background-color: #000;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  display: flex;
+  justify-content: space-around;
+  align-items: space-around;
+    margin: 4px 2px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.button:hover {
+  background-color: #A9A9A9;
+}
+
+.image {
+  float:right;
+  width: 30%;
+  text-align: right !important;
+}
+
+
+.text {
+  display: block;
+  justify-content: flex-start;
+  line-height: 30px;
+  font-size: 20px;
+  font-family: 'Montserrat';
+  float:left;
+  width: 70%;
+  text-align: right;
+  margin-right: 10%;
+  margin-left: 10%
+}
+
+
+.nav-photo {
+  height: 400px;
+  width: 400px;
+}
+
+.nav {
+  padding-top: 200px;
+  display: inline-flex;
+}
+
+.feature {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  padding-left: 600px;
+}
+
+img{
+  border-radius: 50%;
+  height: 550px;
+  width: 550px;
+}
+
+
+}
+
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+  .container,
+  .image,
+  .nav{
+    justify-content: space-around;
+  }
+
+  @media only screen and (min-width: 961px) {
+    .container,
+    .image,
+    .nav{
+      justify-content: space-around;
+    }
