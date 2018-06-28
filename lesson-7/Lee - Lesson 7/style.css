@@ -1,0 +1,32 @@
+body {
+  font-family: "Work Sans", sans-serif;
+}
+
+nav{
+  display: flex;
+  justify-content: space-between;
+}
+
+
+div.featured-project container{
+  display:flex;
+  align-items: stretch;
+}
+
+
+div.container{
+  display:flex;
+  justify-content: center;
+}
+
+div.project-card-horizontal one-half{
+  flex-direction: row;
+}
+
+
+
+footer{
+  display:flex;
+  justify-content: center
+}
+
