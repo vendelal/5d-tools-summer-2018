@@ -1,0 +1,21 @@
+@font-face{
+	font-family:'Marlboro';
+	font-style:normal;
+	font-weight:normal;
+	src: url('../fonts/Marlboro.ttf')format("truetype"),
+	url('../fonts/life-form/LifeFormBB_bld.ttf')format("truetype");
+}
+
+@font-face{
+	font-family:'life-form';
+	font-style:normal;
+	font-weight:normal;
+	src:url('../fonts/life-form/LifeFormBB_bld.ttf')format("truetype");
+}
+
+@font-face{
+	font-family:'00TT';
+	font-style:normal;
+	font-weight:normal;
+	src:url('../fonts/00TT.TTF')format("truetype");
+}
