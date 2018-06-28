@@ -1,0 +1,55 @@
+body{
+  background-color:thistle;
+}
+
+h1{
+  font-family: impact, charcoal, sans-serif;
+  text-align: center;
+}
+
+h2{
+  color:navajowhite;
+  font-size:1rem;
+}
+
+ul{
+  list-style-type: square;
+}
+
+ol{
+  list-style-type:upper-alpha;
+}
+.box{
+  border-radius: 10px;
+  border-style: solid;
+  height: 200px;
+  width: 200px;
+}
+
+#one{
+  border-color: yellow;
+}
+
+#two{
+  border-color: green;
+}
+
+#three{
+  border-color: red;
+}
+
+.special-header{
+  color:blue;
+}
+
+#what-is-css{
+  background-color:hotpink;
+}
+
+em{
+  font-weight: bold;
+}
+
+li{
+  font-size: 1.2em;
+}
