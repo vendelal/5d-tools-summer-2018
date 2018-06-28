@@ -1,0 +1,56 @@
+.flex-container {
+	display: flex;
+}
+
+.title {
+	margin: auto;
+	width: 600px;
+}
+
+.title h3 {
+	text-align: center;
+	color: #ECECEC;
+	font-size: 50px;
+}
+
+.title p {
+	text-align: justify;
+	color: #8F8F8F;
+	font-size: 16px;
+	padding: 0px 0px 20px 0px;
+}
+
+.projects {
+	justify-content: flex-start;
+	margin-bottom: 10px;
+	background-color: #330045;
+}
+
+.images {
+	background-color: #C4C4C4;
+	justify-content: space-between;
+	padding: 10px;
+}
+
+.text {
+	padding-left: 20px;
+	color: #C4C4C4;
+}
+
+.text h3 {
+	color: #ECECEC;
+	font-size: 24px;
+	padding-right: 150px;
+}
+
+.text p {
+	color: #BDBDBD;
+	font-size: 14px;
+	padding-right: 200px;
+}
+
+
+
+
+
+

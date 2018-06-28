@@ -1,0 +1,42 @@
+.flex-container {
+	display: flex;
+}
+
+.block1 {
+	justify-content: space-around;
+	
+}
+
+.block2 {
+	justify-content: space-around;
+}
+
+.block3 {
+	justify-content: space-around;
+	margin-top: -80px;
+}
+
+.spacer {
+	width: 900px;
+}
+
+.text {
+	width: 600px;
+	margin: 20px 200px 0px 200px;
+	margin-top: -20px;
+}
+
+.block3 {
+	line-height: 5px;
+	margin-bottom: 50px;
+}
+
+h3 {
+	color: #ECECEC;
+	font-size: 24px;
+}
+
+p {
+	color: #BDBDBD;
+	font-size: 14px;
+}
