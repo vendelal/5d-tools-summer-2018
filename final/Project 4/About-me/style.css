@@ -1,0 +1,72 @@
+.title-page{
+	display: flex;
+	flex-direction: column;
+	border: line;
+	box-shadow: 5px 7px 10px #9CA3A2;
+}
+
+body{
+	background-color: #E13700;
+	background-image: linear-gradient(#E13700, #8EA604);
+}
+
+div {
+	background-color: #DEE8E6;
+	height: 600px;
+	width: 1300px;
+	margin:  0px 30px;
+	display: block;
+	text-align: left;
+	border-radius: 10px;
+}
+
+ul {
+	display: flex;
+	flex-direction: row;
+}
+
+li{
+	display: flex;
+	align-items: center;
+	margin: 0px 00px 5px 200px;
+}
+
+h1{
+	font-family: 'Reenie Beanie', cursive;
+	font-size: 60px;
+	font-weight: bold;
+	color: #394753;
+	text-shadow: 3px 5px 11px #8EA604;
+}
+
+h2{
+	font-family: 'Reenie Beanie', cursive;
+	font-size: 40px;
+	font-weight: bold;
+	color: #394753;
+	text-shadow: 3px 5px 11px #8EA604;
+}
+
+p{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 20px;
+	letter-spacing: 1px;
+	line-height: 35px;
+	color: #394753;
+}
+
+button { 
+	background-color: #ACBE48;
+	border-radius: 10px;
+	border-color: #394753;
+	margin: 30px 42px;
+	height: 40px;
+	width: 200px
+}
+
+a{
+	text-decoration: none;
+	color: #394753;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: bold;
+}
