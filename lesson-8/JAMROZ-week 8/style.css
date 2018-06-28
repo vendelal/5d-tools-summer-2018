@@ -1,0 +1,166 @@
+body {
+  font-family: 'Work Sans', sans-serif;
+}
+
+ul {
+  display:flex;
+  text-decoration: none;
+  list-style: none;
+  flex-direction: row;
+  justify-content: space-around;
+  color: #FC6062;
+}
+
+li {
+  font-size: 20px;
+  justify-content: space-between;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  padding-right: 40px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+time {
+  color:#F99E9F;
+  text-transform: uppercase;
+  font-weight: bold;
+
+}
+
+h3 {
+  color: #4A4A4A;
+  font-size: 25px;
+  padding-left: 40px;
+  font-weight: 400;
+}
+
+
+.project-card-horizontal {
+  display: flex;
+  flex-direction: row;
+  background-color: #F7F2F2;
+  color:#4A4A4A;
+  padding: 10px;
+  width: 700px;
+  flex-wrap:wrap;
+  margin: 20px;
+
+}
+
+
+.project-card-vertical {
+   display: flex;
+  background-color: #F7F2F2;
+  color: #4A4A4A;
+  width: 395px;
+  flex-wrap: wrap;
+  align-items: center;
+  flex-direction:column;
+  text-align:center;
+}
+
+.project-card-vertical-2 {
+display: flex;
+  background-color: #F7F2F2;
+  color: #4A4A4A;
+  width: 622px;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction:column;
+  text-align: center;
+
+}
+
+
+p {
+  padding-bottom: 30px;
+}
+
+.primary {
+text-decoration: none;
+  background-color: white;
+  color: #fc6163;
+  border-radius: 5px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  padding: 15px 60px;
+  text-align: center;
+
+  text-transform: uppercase;
+}
+
+.secondary {
+  text-decoration: none;
+  color: #fc6163;
+  border:solid 3px #fc6163;
+  border-radius: 5px;
+  letter-spacing: 1px;
+  padding: 15px 50px;
+  text-align: center;
+
+  text-transform: uppercase;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  margin: 30px;
+
+}
+
+.image-container {
+  display: flex;
+  padding-top: 10px;
+
+
+}
+
+.text-container {
+  padding: 70px;
+}
+
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+}
+
+footer {
+  text-align: center;
+  background-color: #4A4A4A;
+  color: white;
+  padding: 100px;
+  justify-content: space-around;
+
+}
+
+a {
+  text-decoration: none;
+  color: #FC6062;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+
+header {
+  display: flex;
+align-items: center;
+ background-color: #FC6062;
+ margin: 0 auto;
+ color: white;
+
+}
+
+.featured-project {
+  display: flex;
+
+  background-color: #FC6062;
+  flex-direction: row;
+  padding: 70px;
+  justify-content: space-around;
+  padding-left: 50px;
+  padding-right: 100px;
